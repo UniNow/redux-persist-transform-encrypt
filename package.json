@@ -4,9 +4,7 @@
   "description": "Encrypt your Redux store.",
   "main": "index.js",
   "scripts": {
-    "prepublish": "npm run build",
     "format": "prettier --write 'src/**/*.js'",
-    "build": "babel src -d lib --ignore __tests__",
     "test": "jest"
   },
   "repository": {
@@ -26,7 +24,8 @@
   },
   "homepage": "https://github.com/maxdeviant/redux-persist-transform-encrypt#readme",
   "files": [
-    "lib/",
+    "src/",
+    "index.js",
     "async.js"
   ],
   "peerDependencies": {
